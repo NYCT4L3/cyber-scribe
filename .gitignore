@@ -1,0 +1,21 @@
+# Virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Personal config — real paths and any API keys. Commit scribe.env.example
+# instead, never this file.
+scribe.env
+
+# Your actual lab journal contents — this is your private study material,
+# not part of the tool itself. Don't publish your own notes by accident.
+journal/
+
+# Whisper model weights get cached locally, not project files
+*.pt
+*.bin
+~/.cache/whisper/
+
+# OS/editor noise
+.DS_Store
+.vscode/

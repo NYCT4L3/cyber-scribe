@@ -1,0 +1,19 @@
+# Web app (app.py) — records in the browser, no fixed time limit
+flask
+
+# Core transcription (local, offline)
+faster-whisper
+
+# Needed to talk to your local Ollama server for structuring
+requests
+
+# Microphone recording — only needed for the CLI's `record`/`entry` commands.
+# The web app (app.py) records through the browser instead, so these are
+# optional if you're only using app.py.
+sounddevice
+soundfile
+numpy
+
+# Optional fallback: only used if Ollama isn't running AND you've set
+# ANTHROPIC_API_KEY. Not needed if you're sticking with Ollama.
+anthropic

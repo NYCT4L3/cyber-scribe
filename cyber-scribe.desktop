@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Cyber Scribe
+Comment=Voice notes to structured cybersecurity lab journal entries
+Exec=/home/sh4d0w/Projects/Nyctale/Scribe/run.sh
+Icon=utilities-terminal
+Terminal=true
+Categories=Utility;Development;
