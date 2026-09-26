@@ -1,7 +1,7 @@
 # Cyber Scribe (v1)
 
 Voice notes → local transcript → structured lab journal entry, straight into
-your own study-folder structure. Built by and for
+your own study-folder structure. Built for
 [The-Art-of-Hacking/h4cker](https://github.com/The-Art-of-Hacking/h4cker)
 roadmap study (`00-Inbox`, `01-Foundations`, ... `10-References` by
 default) — **but the folder names are fully configurable, not hardcoded.**
@@ -177,7 +177,7 @@ Whisper's default vocabulary doesn't know words like `nmap`, `vsftpd`, or
   on every transcription, biasing it toward common pentest/infosec terms.
   Add your own frequently-used tool or term names to that constant if you
   keep hitting the same mistranscription.
-- **GPU acceleration**: transcription tries your RTX 4050 (CUDA) first,
+- **GPU acceleration**: transcription tries your GPU (CUDA) first,
   falling back to CPU automatically if that's unavailable. This lets you
   comfortably use a larger, more accurate model instead of trading
   accuracy for speed.
